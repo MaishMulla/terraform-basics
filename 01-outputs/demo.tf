@@ -1,1 +1,3 @@
-output
+output "sample"{
+    value = "hellow world"
+}
