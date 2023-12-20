@@ -1,3 +1,3 @@
-output "sample_output" {
-    value = "world"
+output "sample" {
+    value  =  "world"
 }
