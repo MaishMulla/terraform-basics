@@ -35,3 +35,11 @@ output "training_map_op" {
     value = "${var.training_map["training"]} has great scope of opportunities and this is complete ${var.training_map["mode"]} and this is our batch ${var.training_map["batch"]}"
 }
 
+variable "city" {
+  
+}
+
+output "city_op" {
+    value=var.city
+  
+}
