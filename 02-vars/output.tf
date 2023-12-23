@@ -17,6 +17,11 @@ variable "example_list"{
         56
     ]
 }
-output  "example_list_op"{
+
+    {
+    output "example_list_op" {
+    value = "Welcome To ${var.example_list[0]} with ${var.example_list[1]} Training and this our batch ${var.example_list[4]} and training by ${var.example_list[3]}"
+}
+
 
 }
