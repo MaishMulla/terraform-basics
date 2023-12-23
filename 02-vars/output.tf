@@ -43,3 +43,13 @@ output "city_op" {
     value=var.city
   
 }
+
+#supplying shell var
+variable "course" {}
+
+    output "course_op"{
+        value = var.course
+
+    }
+
+ 
