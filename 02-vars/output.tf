@@ -1,4 +1,4 @@
-variable "sample" {}
+#variable "sample" {}
 
 variable "batch" {
     default= "batch56"
