@@ -1,1 +1,2 @@
 city = "ankleshwar"
+course = "basicsdevops"
