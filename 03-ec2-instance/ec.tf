@@ -3,7 +3,7 @@ resource "aws_instance" "app" {
   instance_type          = "t3.micro"
   vpc_security_group_ids = [sg-01210c7d60b16e137]
 
-    tags = {z
+    tags = {
              Name        = "DevOps-With-AWS-LabInstance"
     }
 }
